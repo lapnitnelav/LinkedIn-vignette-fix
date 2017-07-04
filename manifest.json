@@ -1,0 +1,14 @@
+{
+  "name": "LinkedIn vignette fix",
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "*://www.linkedin.com/search/results/*"
+   ],
+  "background": {
+    "scripts": ["background-script.js"],
+    "persistent": false
+  },
+  "version": "1",
+  "manifest_version": 2
+}
